@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+background-color: #70d5dd;
+display: flex;
+justify-content: end;
+padding: 70px;
+
+}
+
+
+.menu li a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+ display: flex;   
+ list-style: none;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.menu li a{
+text-decoration: none;    
+}
+
+.menu a:hover{
+ color: #40b0b8;
+ transition: 0.8s;
+}
+
+#sessao{
+ padding: 15rem;   
+ background: linear-gradient(90deg, rgba(0, 36, 12, 0.479) 0%, rgba(9,105,121,1) 35%),rgba(9,105,121,1)
+}
+
+#sessao h2{
+
+    font-size: 2.3em;
+    color: rgba(0 , 0 , 0, 0.753);
+}
+
+#sessao{
+ font-size: 2.3em;   
+ max-width: 20px 0;
+}
+
+#sessao button {
+ padding: 25px;   
+ border-radius: 50px;
+ border-color:#7becf0 ;
+ width: 20em;
+ cursor: pointer;
+}
+
+#sessao button:hover{
+transition: 1s;    
+color: white;
+background-color: black;
+}
+
+#sessao button a{
+text-decoration: none;
+border-bottom: #70d5dd;
+
+}
+
+#app{
+padding: 15rem;
+background-color: #9cffff;
+display: flex;
+justify-content: space-between;
+
+}
+
+#app div button{
+padding: 25px;
+border-radius: 50px;
+border-color:#9cffff ;
+width: 20em;
+cursor: pointer;
+
+}
+
+#app button:hover{
+ transition: 1s;
+ color: white; 
+ background-color: black; 
+}
+
+#app button a{
+text-decoration: none;
+color: #7becf0;
+
+}
+
+#app div img{
+width: 25rem;
+height: 25rem;
+margin-left: 70px;
+margin-top: 70px;
+
+}
+
+#container{
+  padding: 15rem;  
+  background-color: #fcd89c;
+}
+
+#container h2 {
+font-size:  40px;
+text-align: center;
+color: #1d6acf;
+margin-top: 20rem;
+margin-bottom: 2rem;
+
+}
+
+
+#container p {
+
+font-size: 1.4rem;
+color: #6b62ee;
+margin-bottom: 40px;
+text-align: justify;
+
+
+}
+
+#container button{
+padding: 25px;
+border-radius: 50px;
+color: #70d5dd;
+width: 20em;
+
+
+}
+
+#container button:hover{
+transition: 1s;
+color: white;
+background-color: black;
+
+
+}
+
+#container button a{
+ color: #d4cfe0;  
+ text-decoration: none; 
+}
+
+.line{
+ width: 70px;   
+ margin: 45px auto;
+}
+
+#container-cofre{
+    
+
+
+}
