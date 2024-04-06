@@ -102,6 +102,11 @@ color: #7becf0;
 
 }
 
+#app div p{
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
 #app div img{
 width: 25rem;
 height: 25rem;
@@ -162,8 +167,69 @@ background-color: black;
  margin: 45px auto;
 }
 
-#container-cofre{
+#containerimg{
     
+width: 45rem;
+margin-left: 50px;
+
+}
+
+#container-cofre {
+background: linear-gradient(180deg, #0c16a364 8.33%, rgba( 5, 39, 101, 0.745) 100%), url(https://hypescience.com/wp-content/uploads/2014/09/nike.jpg);
+background-position: center;
+background-attachment: fixed;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
 
 
 }
+ 
+
+#container-cofre img {
+width: 20rem;
+height: auto;
+margin-top: 9rem;
+
+}
+
+#container-cofre h2{
+
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#container-cofre p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-weight: 800;
+}
+
+footer {
+padding: 3rem;
+background-color: #70d5dd;
+text-align: center;
+
+}
+
+footer div{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+}
+
+footer div a:hover{
+    color: purple;
+    transition: 0.8;
+}
+
+
