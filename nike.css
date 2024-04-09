@@ -59,6 +59,7 @@ text-decoration: none;
  border-color:#7becf0 ;
  width: 20em;
  cursor: pointer;
+ margin-top: 30px;
 }
 
 #sessao button:hover{
@@ -163,7 +164,7 @@ background-color: black;
 }
 
 .line{
- width: 70px;   
+ width: 70%   
  margin: 45px auto;
 }
 
